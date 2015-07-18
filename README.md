@@ -1,5 +1,7 @@
 #Akamai Edgescape Header Parser
 
+[![Build Status](https://travis-ci.org/clohr/akamai-edgescape-parser.svg?branch=master)](https://travis-ci.org/clohr/akamai-edgescape-parser)
+
 A utility that parses an Akamai Edgescape string into a key/value pair object. Designed for Node, but can also be used in the browser via [Browserify](http://browserify.org/).
 
 ##Usage
