@@ -9,7 +9,7 @@ var exampleEdgescapeString = 'city=Bainbridge Island,state=WA,zip=98110';
 var keyValuePairs = akamaiEdgescapeParser(exampleEdgescapeString);
 
 console.log('keyValuePairs:', keyValuePairs);
-/*
+/* outputs
 {
     city: 'Bainbridge Island',
     state: 'WA',
