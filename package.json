@@ -1,0 +1,32 @@
+{
+    "name": "akamai-edgescape-parser",
+    "version": "1.0.0",
+    "description": "A utility that parses an Akamai Edgescape string into a key/value pair object",
+    "main": "lib/index.js",
+    "scripts": {
+        "lint": "./node_modules/eslint/bin/eslint.js -f stylish lib/*.js; exit 0",
+        "test": "tape test/*.spec.js | tap-spec",
+        "pretest": "npm run lint"
+    },
+    "keywords": [
+        "akamai",
+        "edgescape",
+        "parser",
+        "universal",
+        "isomorphic"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/clohr/akamai-edgescape-parser.git"
+    },
+    "bugs": {
+        "url": "https://github.com/clohr/akamai-edgescape-parser/issues"
+    },
+    "author": "Christian Lohr <christian.lohr@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^0.24.1",
+        "tap-spec": "^4.0.2",
+        "tape": "^4.0.0"
+    }
+}
