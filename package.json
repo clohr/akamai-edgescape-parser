@@ -5,7 +5,7 @@
     "main": "lib/index.js",
     "scripts": {
         "lint": "./node_modules/eslint/bin/eslint.js -f stylish lib/*.js; exit 0",
-        "test": "tape test/*.spec.js | tap-spec",
+        "test": "istanbul cover --report cobertura --dir ./test/coverage -- tape test/*.spec.js | tap-spec",
         "pretest": "npm run lint"
     },
     "keywords": [
@@ -26,6 +26,7 @@
     "license": "MIT",
     "devDependencies": {
         "eslint": "^0.24.1",
+        "istanbul": "^0.3.17",
         "tap-spec": "^4.0.2",
         "tape": "^4.0.0"
     }
