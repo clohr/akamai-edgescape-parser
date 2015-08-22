@@ -1,6 +1,6 @@
 {
   "name": "akamai-edgescape-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility that parses an Akamai Edgescape string into a key/value pair object",
   "main": "lib/index.js",
   "scripts": {
